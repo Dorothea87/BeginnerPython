@@ -22,6 +22,7 @@ display_full_name("John", "Smith", "Peter")
 #The temperature in London is 7 degrees with a humidity of 40%
 
 def weather_display(city, temp, humidity=None):
+    """displays weather in a city"""
     message = f"The temperature in {city} is {temp} degrees"
     if humidity:
         print(f"{message} with a humidity of {humidity}%.")

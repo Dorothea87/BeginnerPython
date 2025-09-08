@@ -35,3 +35,27 @@ print(students)
 print(sorted(students))
 students.reverse()
 print(students)
+
+
+#homework
+countries = ["Japan", "Iceland", "New Zealand"]
+print(countries)
+countries.pop()
+print(countries)
+countries.insert(0, "South Africa")
+print(countries)
+print(len(countries))
+countries.sort()
+print(countries)
+
+students = ["Maria", "Julian", "Marc", "Steve"]
+#for loop
+for student in students:
+    print(f"The student's name is {student.title()}.")
+
+
+countries = ["Japan", "France", "Norway"]
+index = 0
+for country in countries:
+    print(f"My number {index + 1} country is {country.title()}")
+    index = index + 1
